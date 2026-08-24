@@ -1,0 +1,21 @@
+{
+  "name": "tradex-backend",
+  "version": "1.0.0",
+  "description": "Express API foundation for TradeX paper-trading platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed:admin": "node src/scripts/seedAdmin.js"
+  },
+  "keywords": ["tradex", "paper-trading", "express", "mongodb"],
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  }
+}
